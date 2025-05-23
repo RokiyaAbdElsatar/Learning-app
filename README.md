@@ -1,6 +1,6 @@
 # learning_app
 
-A Simple learning app .
+A Simple app to learn numbers from 1 to 10 , family member and colors in french.
 
 ## Getting Started
 
