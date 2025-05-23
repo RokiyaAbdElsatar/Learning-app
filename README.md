@@ -1,4 +1,4 @@
-# learning_app
+# learning_app (from  Jun 22, 2024)
 
 A Simple app to learn numbers from 1 to 10 , family member and colors in french.
 
