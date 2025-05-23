@@ -1,20 +1,96 @@
-# learning_app (from  Jun 22, 2024)
+# Learn French App
+A Flutter application designed to help users learn French through interactive lessons covering numbers, family members, and colors. The app provides audio pronunciation and visual aids for better learning experience.
 
-A Simple app to learn numbers from 1 to 10 , family member and colors in french.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Preview 
 
 
-https://github.com/user-attachments/assets/5380b249-3a33-489f-8a31-e89f6365caf1
+
+https://github.com/user-attachments/assets/db06af0d-10e8-4820-9f0b-982a6140fe56
+
+
+
+## Features
+
+1. Three Main Learning Categories:
+
+- Numbers (1-10)
+- Family Members
+- Colors
+
+2. Interactive Learning Elements:
+
+- Visual representations with images
+- Audio pronunciation for each word
+- Both French and English translations
+- User-friendly interface with clear navigation
+
+3. Technical Features:
+
+- Clean architecture with organized folder structure
+- Reusable components
+- Audio player integration
+- Custom widgets for consistent UI elements
+- Project Structure
+
+```
+lib/
+├── classes/
+│   ├── colorsClass.dart
+│   ├── familyclass.dart
+│   └── number.dart
+├── components/
+│   ├── category.dart
+│   ├── colorsItem.dart
+│   ├── family_items.dart
+│   └── rowCategory.dart
+├── screens/
+│   ├── colors.dart
+│   ├── family.dart
+│   ├── home_page.dart
+│   └── numbers.dart
+└── main.dart
+```
+
+#### Dependencies
+- flutter/material.dart
+- audioplayers - For playing pronunciation audio files
+
+#### Setup
+- Clone the repository
+- Ensure you have Flutter installed
+- Run `flutter pub get` to install dependencies
+- Run the app using `flutter run`
+
+#### Assets Required
+- Images for numbers (1-10)
+- Images for family members
+- Images for colors
+- Audio files for pronunciation in French
+- Screen Details
+
+#### Home Screen
+- Welcome message
+- Three main category buttons
+- Navigation to respective learning sections
+
+#### Numbers Screen
+- Lists numbers from 1-10
+- Shows French and English translations
+- Includes number images
+- Audio pronunciation feature
+
+#### Family Members Screen
+- Shows common family relations
+- Includes images for each family member
+- French and English translations
+- Audio pronunciation feature
+
+#### Colors Screen
+- Various color options
+- Visual color representation
+- French and English translations
+- Audio pronunciation feature
+
+### Contributing
+Feel free to submit issues and enhancement requests.
 
